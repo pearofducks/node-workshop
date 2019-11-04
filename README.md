@@ -25,7 +25,7 @@ You should definitely have some additional tests for the logic you implement so 
 #### It should also be able to provide totals for airports:
 - `getTotals(airports)`
   - `airports` is an array of `airport` records
-  - Should return an array of objects with the form: `{ airportCode: 'XXX', totalFlights: 000, totalDelays: 000, totalDelayMinutes: 000 }`
+  - Should return an array of objects with the form: `{ airportCode: 'XXX', carrierCode: 'XXX', totalFlights: 000, totalDelays: 000, totalDelayMinutes: 000 }`
 
 
 # Airline records
